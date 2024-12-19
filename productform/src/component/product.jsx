@@ -61,14 +61,14 @@ function Product(){
         <div id="main">
         <form action="" onSubmit={submitdata}>
         <h1>Product Form</h1>
-        <input type="text" name="productname" placeholder="Product name" onChange={handleChange} onBlur={hlBlure} onFocus={hlFocus}/>
+        <input type="text" name="productname" placeholder="Product name" onChange={handleChange} onBlur={hlBlure} onFocus={hlFocus}/> <br />
         {pnErr == true ? <p>Must be at least 3 characters long.</p> : ""}
         
-        <br /><br />
-        <input type="number" name="productprice" placeholder="Product price" onChange={handleChange} onBlur={hlBlure} onFocus={hlFocus}/>
+        <br />
+        <input type="number" name="productprice" placeholder="Product price" onChange={handleChange} onBlur={hlBlure} onFocus={hlFocus}/><br />
         {ppErr == true ? <p>Must be a positive number.</p> : ""}
         
-        <br /><br />
+        <br />
         <select name="" id="" onChange={handleChange}>
             <option value="Electronics">Electronics</option>
             <option value="Clothing">Clothing</option>
@@ -79,8 +79,8 @@ function Product(){
         {pdErr == true ? <p>Maximum of 200 characters.</p> : ""}
         
         <br /><br />
-        <label>Product image</label><br />
-        <input type="file" name="productimg" accept="image/jpeg,image/png" placeholder="Product image" onChange={handleChange} onBlur={hlBlure} onFocus={hlFocus}/><br /><br />
+        
+        <input type="text" name="productimg" accept="image/jpeg,image/png" placeholder="Product image" onChange={handleChange} onBlur={hlBlure} onFocus={hlFocus}/><br /><br />
         <input type="submit" />
         </form>
         </div>

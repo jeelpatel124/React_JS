@@ -1,0 +1,14 @@
+#in{
+    border-radius: 20px;
+    border: 1px solid black;
+    height: 30px;
+    width: 200px;
+    padding-left: 10px;
+}
+#bt{
+    border-radius: 20px;
+    border: 1px solid black;
+    height: 30px;
+    width: 100px;
+    font-weight: bold;   
+}
