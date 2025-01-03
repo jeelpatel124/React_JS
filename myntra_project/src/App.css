@@ -1,0 +1,10 @@
+*{
+font-family: "Poppins", serif;
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;        
+        
+}
+header{
+    box-shadow: 0px 1px 7px 2px grey;
+}
